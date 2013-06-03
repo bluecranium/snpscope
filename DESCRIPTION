@@ -1,10 +1,17 @@
 Package: snpscope
-Maintainer: Who to complain to <yourfault@somewhere.net>
-Author: bhasinj
-Version: 1.0
+Maintainer: Jeffrey Bhasin <jeffb@case.edu>
+Author: Jeffrey Bhasin <jeffb@case.edu>
+Version: 0.1
 License: GPL-3
-Title: 
-Description: 
+Title: snpscope: Compute overlap of SNPs with regulatory elements and export to CSV or the UCSC Genome Browser
+Description: Uses shiny to launch a web-based interface to select SNPs and regulatory elements and allows downloading a CSV of element overlaps and provides visualization by creating a UCSC genome browser session using rtracklayer.
+Depends:
+    shiny,
+    rtracklayer,
+    NCBI2R,
+    stringr,
+    reshape,
+    plyr
 Suggests:
     testthat,
     roxygen2

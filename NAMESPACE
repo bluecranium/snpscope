@@ -1,0 +1,7 @@
+export(runWebApp)
+import(shiny)
+import(rtracklayer)
+import(NCBI2R)
+import(stringr)
+import(reshape)
+import(plyr)
