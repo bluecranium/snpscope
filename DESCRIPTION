@@ -17,3 +17,4 @@ Suggests:
     roxygen2
 Collate:
     'snpscope-package.r'
+    'snpscope.r'
