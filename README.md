@@ -7,6 +7,7 @@ snpscope
 
 ## Installation
 	library(devtools)
+	options(repos=c("http://cran.rstudio.com","http://www.bioconductor.org/packages/release/bioc"))
 	install_github("snpscope", username="bluecranium")
 
 ## Running

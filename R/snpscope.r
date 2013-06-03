@@ -5,6 +5,7 @@
 #' @export
 runWebApp <- function()
 {
+	options(shiny.trace=TRUE)
 	shiny::runApp(system.file('webapp', package='snpscope'))
 }
 # -----------------------------------------------------------------------------
