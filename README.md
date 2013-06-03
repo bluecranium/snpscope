@@ -4,8 +4,8 @@ snpscope
 Compute overlap of SNPs with regulatory elements and export to CSV or the UCSC Genome Browser
 
 ## Installation
-install.github(...)
+	install.github(...)
 
 ## Running
-library(snpscope)
-runWebApp()
+	library(snpscope)
+	runWebApp()
