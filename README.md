@@ -6,7 +6,8 @@ snpscope
 * Uses shiny to launch a web-based user interface. This interface allows either a CSV download or the creation of a UCSC Genome Browser session via the rtracklayer package.
 
 ## Installation
-	install.github(...)
+	library(devtools)
+	install_github("snpscope", username="bluecranium")
 
 ## Running
 	library(snpscope)
